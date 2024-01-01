@@ -109,7 +109,7 @@ header{
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
-    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .dropdown_menu.open {
@@ -416,4 +416,40 @@ footer{
     line-height: 2rem;
     margin: 0 auto;
     text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.bacgrnd{
+    background: -webkit-linear-gradient(to right, #fdfc47, #24fe41); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdfc47, #24fe41); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: justify;
+}
+
+
+.lastLine{
+    background: -webkit-linear-gradient(to right, #fdfc47, #24fe41); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdfc47, #24fe41); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.boldText{
+    text-align: center;
+    background: -webkit-linear-gradient(to right, #fdfc47, #24fe41); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdfc47, #24fe41); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
 }
